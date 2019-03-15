@@ -1,0 +1,50 @@
+{
+	"name": "cartalyst/data-grid",
+	"description": "HTML markup templating on the client side, simple API on the server side. Incredibly simple and easy to use.",
+	"keywords": [
+		"php",
+		"cartalyst",
+		"laravel",
+		"data grid",
+		"filter",
+		"search",
+		"pagination"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Cartalyst LLC",
+			"email": "help@cartalyst.com",
+            "homepage": "https://cartalyst.com"
+		}
+	],
+	"repositories": [
+        { "type": "composer", "url": "https://packages.cartalyst.com" }
+    ],
+	"require": {
+		"php": ">=5.3.0",
+		"symfony/http-foundation": "~2.4|~3.1",
+		"illuminate/support": "~5.0"
+	},
+	"require-dev": {
+		"cartalyst/attributes": "~1.0",
+		"illuminate/database": "~5.0",
+		"mockery/mockery": "~0.9",
+		"phpunit/phpunit": "~4.8"
+	},
+	"suggest": {
+		"dompdf/dompdf" : "Download your data as PDF files."
+	},
+	"autoload": {
+		"psr-4": {
+			"Cartalyst\\DataGrid\\": "src"
+		}
+	},
+	"extra": {
+		"component": "package",
+		"branch-alias": {
+			"dev-master": "3.0.x-dev"
+		}
+	},
+	"minimum-stability": "stable"
+}
